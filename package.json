@@ -14,9 +14,10 @@
     "turbo": "^1.9.7"
   },
   "name": "turbo-connect-next",
-  "packageManager": "npm@9.6.6",
-  "workspaces": [
-    "apps/*",
-    "packages/*"
-  ]
+  "packageManager": "pnpm@8.5.1",
+  "dependencies": {
+    "@bufbuild/connect-next": "^0.9.0",
+    "@bufbuild/connect-query": "^0.2.2",
+    "@bufbuild/protoc-gen-connect-query": "^0.2.2"
+  }
 }
